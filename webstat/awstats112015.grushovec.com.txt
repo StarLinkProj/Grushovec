@@ -1,0 +1,668 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201511 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.grushovec.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1959                
+POS_TIME 2632                
+POS_VISITOR 11151               
+POS_DAY 18682               
+POS_DOMAIN 3509                
+POS_LOGIN 3743                
+POS_ROBOT 3898                
+POS_WORMS 4578                
+POS_EMAILSENDER 4709                
+POS_EMAILRECEIVER 4852                
+POS_SESSION 19529               
+POS_SIDER 19738               
+POS_FILETYPES 4987                
+POS_OS 5266                
+POS_BROWSER 5435                
+POS_SCREENSIZE 6203                
+POS_UNKNOWNREFERER 6277                
+POS_UNKNOWNREFERERBROWSER 6549                
+POS_ORIGIN 6631                
+POS_SEREFERRALS 6777                
+POS_PAGEREFS 6934                
+POS_SEARCHWORDS 7465                
+POS_KEYWORDS 7617                
+POS_MISC 2295                
+POS_ERRORS 7676                
+POS_CLUSTER 3599                
+POS_SIDER_404 7802                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151201001258 1 0 11672444048021
+FirstTime 20151101100513
+LastTime 20151130235301
+LastUpdate 20151202000610 1 0 0 0 0
+TotalVisits 206                 
+TotalUnique 171                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 187                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 56 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 77 312 9078711 32 40 198873
+1 59 324 2923053 28 33 175664
+2 37 139 1994456 33 36 173982
+3 113 585 2973454 80 102 1222895
+4 95 263 3870397 65 75 239604
+5 42 125 2915965 44 46 171846
+6 66 275 2775383 46 59 610526
+7 77 147 2655147 36 47 157629
+8 48 199 4467388 49 60 1447128
+9 90 411 11940661 26 32 80670
+10 74 360 11519930 46 64 172720
+11 30 137 4205508 58 75 273913
+12 87 408 12765629 28 41 275630
+13 62 319 8575469 27 31 75680
+14 102 533 14896765 32 49 994653
+15 95 456 12054262 39 56 258306
+16 170 799 19513441 39 62 666110
+17 122 575 13428898 39 49 590295
+18 55 289 8997525 26 34 540383
+19 50 218 6324410 25 31 531980
+20 92 376 11597016 16 22 107367
+21 115 550 18425067 42 63 223629
+22 42 190 5289180 14 20 142700
+23 86 412 13032429 27 43 227450
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1886 8402 206220144
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+googlebot 293 5686950 20151130232130 45
+mj12bot 229 1080537 20151129205857 50
+bot[\s_+:,\.\;\/\\-] 120 1831714 20151130230903 51
+slurp 59 153713 20151130183046 20
+robot 30 95243 20151130224617 7
+unknown 29 23254 20151129125738 29
+crawl 27 87500 20151129034246 2
+java\/[0-9] 17 85721 20151112062344 0
+favicon 10 35194 20151121182339 0
+no_user_agent 7 43915 20151125144603 0
+surveybot 4 10478 20151119223325 2
+seznambot 2 4810 20151121005916 1
+turnitinbot 2 4810 20151130071130 1
+cfnetwork 2 12058 20151114213306 0
+netcraft 2 28352 20151107185530 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 1187 6475950 0 0
+eot 23 706882 0 0
+png 1586 6110716 0 0
+ttf 667 15681233 0 0
+woff 405 7556742 0 0
+php 244 1706632 0 0
+html 226 1055607 0 0
+js 2543 28603490 0 0
+jpg 1091 136826239 0 0
+Unknown 321 1225267 0 0
+gif 109 271386 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+macosx 645
+linuxandroid 234
+blackberry 1
+winlong 1
+winxp 312
+win2003 35
+winnt 84
+Unknown 93
+linux 2114
+winvista 141
+win2008 4742
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 43
+firefox28.0 11
+chrome44.0.2403.125 173
+msie6.0 1
+chrome28.0.1500.94 59
+firefox18.0 8
+chrome39.0.2171.95 50
+chrome31.0.1650.57 2
+chrome36.0.1985.125 219
+curl 1
+opera9.80 100
+safari8.0.6 3
+chrome46.0.2490.76 173
+chrome33.0.0.0 2
+iphone 1
+msie8.0 72
+msie7.0 2
+firefox16.0 65
+chrome37.0.2062.120 6
+firefox41.0 117
+chrome27.0.1453 100
+safari8.0 202
+msie9.0 34
+firefox27.0 1
+netscape 50
+blackberry 1
+firefox40.0 1
+firefox42.0 46
+chrome32.0.1700.107 562
+chrome23.0.1271.17 1
+chrome46.0.2490.80 983
+safari8.0.4 116
+safari9.0 189
+chrome36.0.1985.143 2415
+mozilla 43
+chrome45.0.2454.101 1
+firefox1.0 1
+firefox39.0 44
+chrome35.0.1916.153 34
+firefox14.0.1 10
+chrome46.0.2490.86 802
+firefox3.6.3 1
+safari 1699
+chrome48.0.2552.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla 20151122071713
+Curl/PHP_5.4.42_(http://github.com/shuber/curl) 20151108080728
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20151102004803
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 444 475
+From1 0 0
+From2 17 33
+From3 115 115
+From4 1310 7779
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 17 33
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://rankings-analytics.com/try.php 68 68
+http://buttons-for-website.com 16 16
+http://uba.ua/ukr/events/1613/ 15 15
+http://video--production.com 5 5
+http://pizza-imperia.com 2 2
+http://fast-wordpress-start.com 2 2
+http://vk.com/away.php 2 2
+http://pizza-tycoon.com 1 1
+http://hvd-store.com 1 1
+http://burger-imperia.com 1 1
+http://uba.ua/ukr/news/4029/ 1 1
+http://hundejo.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 4 28098
+303 182 70270
+301 6 3636
+404 77 199440
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 64
+/administrator/components/com_acymailing/inc/openflash/php-ofc-library/ofc_upload_image.php 1 -
+/backup/bigdump.php 1 -
+/faqs-new/wp-login.php 1 -
+/misc/batch.js 1 -
+/administrator/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/admin/bigdump.php 1 -
+/bigdump.php 1 -
+/administrator/wp-login.php 1 http://grushovec.com/administrator/wp-login.php
+/wordpress/wp-login.php 1 -
+/shop/index.php/administrator 1 -
+/store/index.php/administrator 1 -
+/components/com_maian15/charts/php-ofc-library/ofc_upload_image.php 1 -
+/administrator/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/administrator/administrator/ 1 http://grushovec.com/administrator/administrator/
+/administrator/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 1 -
+/index.php/admin 1 -
+/store_admin 1 -
+/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/etc/styles/zpanelx/global-css/login.css 1 -
+/store/admin 1 -
+/misc/druplicon.png 1 -
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/administrator/components/com_maian15/charts/php-ofc-library/ofc_upload_image.php 1 -
+/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 1 -
+/shop/administrator 1 -
+/shop/index.php/admin 1 -
+/apple-touch-icon-120x120.png 1 -
+/dump/bigdump/bigdump.php 1 -
+/components/com_creativecontactform/assets/js/creative-mousewheel.js 1 -
+/components/com_sexycontactform/assets/js/sexy-mousewheel.js 1 -
+/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/blog/wp-login.php 1 -
+/index.php/administrator 1 -
+/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 -
+/wp-login.php 3 -
+/support/wp-login.php 1 -
+/wp-includes/js/colorpicker.js 1 -
+/apple-touch-icon.png 7 -
+/administrator/bitrix/admin/ 1 http://grushovec.com/administrator/bitrix/admin/
+/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/images/joomla_logo_black.jpg 1 -
+/components/com_simplephotogallery/js/main.js 1 -
+/store/administrator 1 -
+/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 -
+/site_admin 1 -
+/administrator/admin.php 1 http://grushovec.com/administrator/admin.php
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 1 -
+/components/com_gglms/js/utils.js 1 -
+/js/prototype/prototype.js 1 -
+/wp/wp-login.php 1 -
+/bigdump/bigdump.php 1 -
+/apple-touch-icon-precomposed.png 6 -
+/store/index.php/admin 1 -
+/admin/dump/bigdump.php 1 -
+/shop/admin 1 -
+/backup/bigdump/bigdump.php 1 -
+/admin 1 -
+/dump/bigdump.php 1 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/components/com_sobipro/usr/templates/usbydesign/js/alpha.js 1 -
+/shop_admin 1 -
+/news/wp-login.php 1 -
+/components/com_guru/js/buy.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 187
+38.99.82.191 290 1699 5666991 20151112090213
+46.216.16.155 219 219 1428683 20151119142623
+64.79.100.39 50 50 171645 20151122071713
+64.79.100.51 50 50 171644 20151118044856
+195.64.149.118 41 217 7714852 20151120141211
+95.170.91.226 41 140 4791560 20151113202456
+109.86.71.180 39 182 3595968 20151129162115
+82.144.205.21 29 153 5322757 20151127112736
+217.20.165.109 26 129 4350723 20151110122619
+46.182.81.190 24 116 2860056 20151116162416
+187.11.59.220 8 29 635905 20151128050544
+186.193.231.34 1 17 222885 20151124141149
+46.211.148.72 10 50 1739437 20151114213337
+190.115.165.54 8 26 441337 20151116165131
+186.214.200.20 8 46 1803512 20151107144719
+189.71.149.16 1 1 4110 20151121161801
+181.112.82.186 1 13 124050 20151124184623
+79.169.17.37 8 44 1801883 20151122021221
+109.122.25.193 0 1 9748 
+217.69.133.169 8 8 32880 20151120095710
+176.38.57.77 11 56 1703833 20151116195534
+178.94.22.84 23 87 2391518 20151103172825
+52.0.89.236 1 1 14176 20151116074005
+197.218.87.157 8 46 1803512 20151113135517
+193.17.46.66 22 122 3929398 20151125105808
+189.72.99.81 8 47 1803889 20151110131941
+187.255.93.39 1 1 4110 20151121195202
+119.236.255.24 8 46 1803512 20151127094512
+201.2.232.216 8 47 1628739 20151119170905
+189.83.97.204 8 38 1131550 20151102094750
+46.211.146.70 1 1 2883 20151117001131
+192.99.150.120 1 1 4110 20151103122435
+84.143.61.153 1 1 4110 20151101191029
+46.211.128.74 19 107 3644118 20151126153750
+66.249.81.240 2 5 46125 20151104103050
+187.23.161.74 8 44 1801883 20151126121710
+95.133.93.183 22 84 2188525 20151116123749
+177.86.170.144 1 4 15658 20151125185931
+177.94.163.126 1 6 32959 20151113024816
+66.249.81.237 0 4 230132 
+84.10.43.218 12 66 2120090 20151126143045
+175.158.158.21 1 14 166804 20151117112922
+66.102.9.91 4 23 959511 20151115152208
+91.210.147.172 2 2 13722 20151117190009
+217.66.156.178 0 1 9505 
+180.191.143.207 8 44 1660188 20151102104550
+188.95.108.66 0 1 9505 
+177.13.27.42 8 28 818017 20151117235723
+77.54.215.177 8 44 1801883 20151110215116
+93.34.86.192 1 1 4110 20151125165239
+188.163.103.84 0 1 9505 
+95.225.95.147 1 15 140015 20151120120251
+213.55.105.66 8 27 507897 20151103212407
+50.158.60.82 8 46 1803512 20151111082744
+80.79.119.220 1 1 535 20151103043558
+66.249.88.218 3 16 238337 20151108080733
+178.74.210.8 11 62 2041332 20151111070605
+216.163.188.238 1 1 14160 20151105130501
+82.193.110.126 13 76 2361336 20151116094213
+93.79.138.21 0 1 8853 
+177.54.224.242 8 47 1803889 20151114211410
+2.51.22.220 8 46 1803512 20151113181500
+66.249.88.223 2 12 510209 20151108080733
+66.102.9.101 3 14 643058 20151115152208
+179.216.202.18 1 1 4110 20151121034258
+78.26.162.8 0 1 8853 
+91.197.50.229 14 75 2160061 20151111070332
+46.211.98.131 2 2 5769 20151117183356
+186.219.67.206 9 26 442682 20151125175657
+62.57.90.134 8 46 1803512 20151130235301
+201.26.121.44 8 47 1745402 20151111190559
+93.72.250.224 16 70 2264046 20151103164529
+45.113.78.2 8 46 1803512 20151119223150
+94.242.246.23 1 1 4110 20151114175748
+189.41.198.82 1 9 60720 20151130194532
+151.75.202.8 1 15 142295 20151128171415
+60.48.252.210 8 46 1648984 20151115230405
+70.79.190.7 1 1 5200 20151113075115
+185.26.182.34 19 100 2369217 20151111151656
+189.12.24.151 8 47 1803889 20151113185904
+46.165.230.5 1 1 4110 20151102053406
+46.211.153.118 12 62 1913517 20151113103422
+177.83.144.40 8 44 1801883 20151130233413
+46.98.216.218 0 1 9505 
+193.29.16.198 0 1 6029 
+217.20.165.89 13 67 2252817 20151118162949
+159.224.165.63 0 1 29913 
+201.12.117.106 1 15 208729 20151127204718
+62.24.181.134 0 3 61439 
+31.43.111.162 9 48 1738858 20151114234006
+69.58.178.59 11 11 132242 20151121055234
+187.75.61.91 1 15 159575 20151125174146
+62.216.46.242 15 78 2367540 20151113094034
+24.114.51.49 7 35 485130 20151113003248
+88.144.73.149 8 44 1801883 20151129125159
+41.158.35.176 1 17 222885 20151114144326
+107.152.186.218 10 10 41100 20151130050657
+109.163.234.4 1 1 4110 20151107023854
+179.234.171.92 8 47 1803889 20151120000224
+5.9.36.66 1 1 4110 20151101210626
+37.73.252.224 1 1 2728 20151113110057
+186.60.156.193 1 15 198372 20151119132408
+200.19.188.5 1 15 142711 20151109235204
+46.211.129.208 10 56 1621618 20151116215614
+92.82.254.198 8 46 1803512 20151107134101
+93.47.20.154 8 47 1803889 20151116010720
+195.154.146.225 1 1 4101 20151112224201
+200.87.105.2 1 15 210846 20151110225521
+191.55.152.57 8 44 1661174 20151130001808
+177.32.165.200 8 44 1801883 20151126122555
+5.135.176.26 1 1 14160 20151128055319
+24.61.199.168 8 44 1801883 20151105032757
+189.115.78.81 8 44 1801883 20151118181914
+179.182.252.30 8 44 1801883 20151112202415
+191.240.240.107 8 44 1592094 20151123224608
+189.60.194.26 8 30 719018 20151120234544
+217.69.132.46 1 17 222876 20151104164325
+179.34.224.143 8 46 1803512 20151121172815
+78.111.187.138 10 53 1800467 20151111055346
+86.31.127.98 8 44 1801883 20151113190834
+176.36.75.206 1 1 2970 20151101100513
+66.249.88.228 3 16 984353 20151108080733
+174.129.169.253 1 1 14160 20151112135435
+138.59.44.58 1 15 210846 20151121143047
+5.86.132.209 8 47 1803889 20151128143446
+95.224.39.150 8 46 1803512 20151111173712
+189.25.27.76 8 47 1631914 20151110174328
+188.163.233.51 13 65 1918497 20151116102416
+177.179.43.29 8 37 1669216 20151112154957
+177.99.167.235 1 17 222885 20151121180800
+46.175.188.10 0 1 9505 
+188.163.87.19 0 1 8853 
+201.11.235.204 8 44 1522189 20151128160749
+66.249.81.243 0 3 128022 
+176.37.23.59 13 68 2254266 20151112113141
+31.134.122.7 10 58 2138809 20151126190800
+191.36.199.172 8 46 1535920 20151118000047
+81.84.62.155 8 44 1442978 20151119135721
+217.151.235.58 0 1 9505 
+94.242.253.92 1 1 4110 20151104140610
+61.3.99.98 8 32 635987 20151124164816
+151.30.113.147 8 44 1801883 20151130043224
+189.82.229.91 8 44 1801883 20151117142419
+79.51.171.118 8 47 1803889 20151125214507
+201.46.166.68 8 42 1231086 20151108003441
+94.56.172.189 1 12 73890 20151113180950
+104.254.24.45 1 1 5200 20151124020004
+66.102.9.111 1 7 130330 20151115152208
+93.126.80.83 18 70 1935373 20151101213117
+177.143.4.81 8 46 1803512 20151117235257
+178.165.130.245 8 46 1803512 20151130153927
+206.183.1.74 20 42 479675 20151102004803
+201.195.230.34 8 47 1803889 20151125182420
+80.87.202.59 1 1 2930 20151111053936
+201.158.66.57 1 1 4110 20151130231122
+69.46.27.154 1 1 4110 20151108080728
+179.168.245.14 8 47 1803889 20151128145453
+178.150.32.11 7 37 527636 20151119192725
+189.105.153.153 8 44 1690503 20151113214923
+191.102.120.74 7 23 407247 20151106202117
+37.73.197.129 12 66 389672 20151113084932
+217.69.132.165 1 17 222876 20151124231502
+171.96.245.13 8 32 1752965 20151106155441
+212.150.51.185 7 35 485224 20151130143705
+190.152.89.154 1 15 192975 20151128032309
+195.94.229.98 6 34 468056 20151112171900
+109.111.6.28 0 1 9505 
+177.86.120.13 1 15 171095 20151120012649
+177.157.234.238 8 44 1801883 20151124202136
+179.217.8.18 8 44 1801883 20151116002752
+179.183.27.85 1 1 4110 20151120232901
+201.37.2.221 1 17 222885 20151115200740
+80.37.209.58 8 31 513039 20151130202609
+178.214.193.222 16 80 2371546 20151109175914
+191.248.56.92 8 47 1803889 20151126041111
+82.144.212.215 8 39 694508 20151127140405
+94.60.182.125 8 46 1803512 20151121232727
+82.117.251.81 8 44 1732899 20151121122523
+82.155.54.142 8 47 1803889 20151123211705
+159.224.40.233 15 79 2368402 20151116220121
+177.180.215.243 8 39 974906 20151114224251
+62.24.181.135 1 10 272419 20151129125727
+94.45.75.134 22 103 2185968 20151105095313
+78.111.186.110 7 35 485124 20151115154313
+93.146.58.184 8 46 1803512 20151129164028
+86.108.81.146 1 15 210846 20151113105833
+111.242.57.116 14 14 148653 20151111064752
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20151101 21 73 1946563 4
+20151102 38 126 3279633 5
+20151103 57 233 6441988 6
+20151104 4 31 641013 3
+20151105 32 155 5283392 4
+20151106 16 56 2164322 3
+20151107 17 93 3611134 3
+20151108 17 87 2968095 5
+20151109 33 154 4377571 5
+20151110 56 288 9862575 9
+20151111 189 1040 19806951 16
+20151112 261 1471 12085740 11
+20151113 123 609 18026181 16
+20151114 37 202 6484085 6
+20151115 25 143 4094002 7
+20151116 133 650 19083552 11
+20151117 30 138 4621443 7
+20151118 173 301 6373075 6
+20151119 174 406 9900151 8
+20151120 43 191 5042550 10
+20151121 41 185 5961754 10
+20151122 58 94 1973528 2
+20151123 16 91 3395983 2
+20151124 21 127 3032525 7
+20151125 50 268 8052454 8
+20151126 46 258 9674430 6
+20151127 26 148 4445764 5
+20151128 35 198 6115302 7
+20151129 56 285 7535221 4
+20151130 58 301 9939167 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 6
+0s-30s 161
+15mn-30mn 5
+30s-2mn 13
+2mn-5mn 11
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 67
+/administrator/index.php 244 1706632 4 4
+/ 206 949664 173 64
+/templates/grushovec/fonts/OpenSansSemiBold/OpenSansSemiBold.ttf 110 3286012 0 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.ttf 110 1893692 0 4
+/templates/grushovec/fonts/OpenSansRegular/OpenSansRegular.ttf 110 3193292 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrBold/HelveticaNeueCyrBold.ttf 104 1843228 0 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrUltraLight/HelveticaNeueCyrUltraLight.ttf 69 1743837 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrMedium/HelveticaNeueCyrMedium.ttf 68 1677220 0 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrThin/HelveticaNeueCyrThin.ttf 67 1705351 0 61
+/templates/grushovec/fonts/hel/HelveticaNeueCyrBold/HelveticaNeueCyrBold.woff 51 816816 0 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLightItalic/HelveticaNeueCyrLightItalic.woff 27 494559 0 5
+/ru/uslugi 9 47280 0 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrMedium/HelveticaNeueCyrMedium.woff 44 698025 1 9
+/templates/grushovec/fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot 1 40559 0 0
+/media/editors/tinymce/skins/lightgray/fonts/tinymce-small.woff 1 8132 0 0
+/poslugi/3-predstavnitstvo-interesiv-v-sudakh 20 61898 1 0
+/templates/grushovec/fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot 1 41023 0 0
+/pro-nas 45 200026 5 4
+/media/editors/tinymce/skins/lightgray/fonts/tinymce.woff 1 7948 0 0
+/ru/novosti/23-novost-1 5 14802 1 1
+/novini 34 90735 1 3
+/templates/grushovec/fonts/hel/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.eot 1 25117 0 0
+/ru/uslugi/7-yuridicheskoe-obsluzhivanie-biznesa-2 2 7165 0 0
+/templates/grushovec/fonts/OpenSansSemiBold/OpenSansSemiBold.woff 51 1358064 0 2
+/templates/grushovec/fonts/hel/HelveticaNeueCyrBlackItalic/HelveticaNeueCyrBlackItalic.eot 1 17042 0 0
+/ru/ 15 83433 2 0
+/kontakti 38 120409 3 8
+/ru/uslugi/6-predstavitelstvo-interesov-v-sudakh 2 6958 0 0
+/administrator/ 4 15655 4 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLightItalic/HelveticaNeueCyrLightItalic.eot 1 27599 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrThin/HelveticaNeueCyrThin.woff 44 707373 1 2
+/ru/uslugi/1-zashchita-v-ugolovnykh-delakh 2 7070 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrUltraLight/HelveticaNeueCyrUltraLight.woff 44 687693 2 2
+/novini/18-novina-1 17 43421 1 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrBoldItalic/HelveticaNeueCyrBoldItalic.eot 1 17074 0 0
+/ru/novosti 8 23419 0 2
+/poslugi 44 202105 1 3
+/templates/grushovec/fonts/hel/HelveticaNeueCyrThinItalic/HelveticaNeueCyrThinItalic.eot 1 18676 0 0
+/templates/grushovec/fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot 1 40815 0 0
+/templates/grushovec/fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot 1 43559 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrBlack/HelveticaNeueCyrBlack.eot 1 14991 0 0
+/administrator/index.php/admin/ 1 6855 0 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLightItalic/HelveticaNeueCyrLightItalic.ttf 5 136865 0 0
+/templates/grushovec/fonts/OpenSansExtraBold/OpenSansExtraBold.eot 1 44523 0 0
+/templates/grushovec/fonts/OpenSansSemiBold/OpenSansSemiBold.eot 1 43447 0 0
+/templates/grushovec/fonts/OpenSansRegular/OpenSansRegular.woff 51 1325808 0 2
+/poslugi/4-yuridichne-obslugovuvannya-biznesu 16 62060 0 2
+/templates/grushovec/fonts/hel/HelveticaNeueCyrMedium/HelveticaNeueCyrMedium.eot 1 24869 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrUltraLight/HelveticaNeueCyrUltraLight.eot 1 25493 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLight/HelveticaNeueCyrLight.woff 36 566445 0 7
+/ru/klienty 5 17533 0 2
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLight/HelveticaNeueCyrLight.eot 1 25417 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrItalic/HelveticaNeueCyrItalic.eot 1 17837 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrUltraLightItalic/HelveticaNeueCyrUltraLightItalic.eot 1 17951 0 1
+/media/jui/fonts/IcoMoon.woff 4 77127 0 2
+/ru/kontakty 6 22137 1 2
+/templates/grushovec/fonts/OpenSansBold/OpenSansBold.eot 1 44331 0 0
+/templates/grushovec/fonts/OpenSansLight/OpenSansLight.eot 1 43883 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrBold/HelveticaNeueCyrBold.eot 1 24449 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.woff 51 808752 0 1
+/ru/o-nas 9 47858 5 1
+/templates/grushovec/fonts/hel/HelveticaNeueCyrThin/HelveticaNeueCyrThin.eot 1 25649 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLight/HelveticaNeueCyrLight.ttf 24 201736 0 0
+/templates/grushovec/fonts/OpenSansRegular/OpenSansRegular.eot 1 42191 0 0
+/klienti 34 153113 0 3
+/poslugi/2-zakhist-v-kriminalnikh-spravakh 25 97278 0 2
+/templates/grushovec/fonts/OpenSansItalic/OpenSansItalic.eot 1 40387 0 0
+END_SIDER
