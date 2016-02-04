@@ -1,0 +1,323 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201602 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.grushovec.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1959                
+POS_TIME 2646                
+POS_VISITOR 3417                
+POS_DAY 4494                
+POS_DOMAIN 4647                
+POS_LOGIN 4878                
+POS_ROBOT 5072                
+POS_WORMS 5546                
+POS_EMAILSENDER 5677                
+POS_EMAILRECEIVER 5820                
+POS_SESSION 5896                
+POS_SIDER 6080                
+POS_FILETYPES 8148                
+POS_OS 8371                
+POS_BROWSER 8461                
+POS_SCREENSIZE 8703                
+POS_UNKNOWNREFERER 8777                
+POS_UNKNOWNREFERERBROWSER 8864                
+POS_ORIGIN 8946                
+POS_SEREFERRALS 9082                
+POS_PAGEREFS 9237                
+POS_SEARCHWORDS 9456                
+POS_KEYWORDS 9608                
+POS_MISC 2309                
+POS_ERRORS 9667                
+POS_CLUSTER 4734                
+POS_SIDER_404 9799                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160203234423 1004 255473 10976032269924
+FirstTime 20160203003334
+LastTime 20160203234423
+LastUpdate 20160204000518 1004 0 1004 0 0
+TotalVisits 22                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 16 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 248 0 0 0
+1 0 0 0 7 7 3356
+2 3 3 739 0 0 0
+3 0 0 0 2 2 1370
+4 0 0 0 1 1 248
+5 0 0 0 3 3 2070
+6 0 0 0 0 0 0
+7 0 0 0 2 2 948
+8 0 0 0 1 1 248
+9 0 0 0 3 3 1196
+10 4 4 927 3 3 1618
+11 2 2 754 1 1 248
+12 0 0 0 0 0 0
+13 1 1 248 0 1 248
+14 1 1 248 2 4 440401
+15 3 3 742 2 2 496
+16 0 0 0 1 1 248
+17 9 10 2915 0 3 496
+18 153 680 12195600 23 40 68410
+19 9 41 138476 4 4 9121
+20 0 0 0 4 5 55726
+21 10 52 1781662 2 3 7491
+22 17 60 1816332 8 10 18870
+23 10 46 1731670 2 4 446484
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+195.64.149.118 116 448 5749078 20160203183302
+91.225.123.226 25 127 2160297 20160203191051
+31.43.111.162 25 110 3597594 20160203223449
+31.134.122.7 17 105 2689549 20160203184422
+188.162.84.2 9 47 1737085 20160203183831
+62.109.17.211 8 8 1968 20160203234423 20160203234422 /libraries/joomla/mail/helper.php
+66.102.9.111 4 16 622367 20160203231536 20160203231535 /templates/grushovec/fonts/hel/HelveticaNeueCyrMedium/HelveticaNeueCyrMedium.woff
+198.20.73.170 3 3 739 20160203025700
+61.100.180.31 3 3 742 20160203150908
+83.14.149.228 3 3 738 20160203101806
+185.84.108.5 1 1 189 20160203105010
+200.55.245.27 1 1 200 20160203220406
+66.102.9.91 2 16 983692 20160203231536 20160203231536 /templates/grushovec/fonts/hel/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.woff
+72.167.131.142 1 1 200 20160203220224
+66.102.9.101 2 12 125121 20160203231536 20160203231536 /templates/grushovec/fonts/hel/HelveticaNeueCyrThin/HelveticaNeueCyrThin.woff
+177.182.86.135 1 1 248 20160203003334
+85.93.5.78 2 2 754 20160203110729
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20160203 223 904 17670561 22
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 223 904 17670561
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+evgenadmin 0 96 2933692 20160203183211
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 26 70234 20160203224219 2
+mj12bot 7 3356 20160203013828 2
+seznambot 5 925351 20160203233820 2
+bot[\s_+:,\.\;\/\\-] 3 2070 20160203051310 2
+surveybot 2 1370 20160203035508 1
+slurp 2 1370 20160203105237 1
+baiduspider 2 4502 20160203220204 0
+favicon 1 4254 20160203231535 0
+unknown 1 700 20160203220145 1
+robot 1 248 20160203044313 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+5mn-15mn 1
+2mn-5mn 1
+0s-30s 14
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 38
+/ 28 91630 11 4
+/templates/grushovec/fonts/hel/HelveticaNeueCyrRoman/HelveticaNeueCyrRoman.woff 16 151641 0 0
+/templates/grushovec/fonts/OpenSansSemiBold/OpenSansSemiBold.woff 16 254637 1 0
+/templates/grushovec/fonts/OpenSansRegular/OpenSansRegular.woff 16 248589 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrBold/HelveticaNeueCyrBold.woff 16 153153 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrMedium/HelveticaNeueCyrMedium.woff 14 153225 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrThin/HelveticaNeueCyrThin.woff 14 155277 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrUltraLight/HelveticaNeueCyrUltraLight.woff 14 150957 1 0
+/administrator/index.php 12 40238 0 0
+/novini 10 23502 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLightItalic/HelveticaNeueCyrLightItalic.woff 2 36634 0 1
+/pro-nas 2 7393 0 0
+/libraries/fof/model/behavior/admin.php 1 248 1 0
+/modules/mod_djimageslider/language/press.php 2 496 0 1
+/libraries/joomla/facebook/oauth.php 4 980 1 1
+/ru/ 1 4276 0 1
+/libraries/cms/html/rules.php 1 245 1 0
+/layouts/joomla/form/renderfield.php 1 245 0 0
+/kontakti 1 2790 0 0
+/administrator/ 3 15993 0 0
+/blog.php 2 496 1 0
+/layouts/joomla/content/intro_image.php 2 492 1 0
+/novini/18-novina-1 7 14191 0 3
+/poslugi 6 24653 0 0
+/administrator/components/com_joomlaupdate/restore.php 4 12144 0 0
+/libraries/joomla/mail/helper.php 1 245 0 0
+/libraries/cms/html/access.php 1 200 1 1
+/libraries/legacy/access/error.php 1 248 0 0
+/libraries/joomla/facebook/footer.php 3 943 2 2
+/poslugi/4-yuridichne-obslugovuvannya-biznesu 2 6864 0 0
+/templates/grushovec/fonts/hel/HelveticaNeueCyrLight/HelveticaNeueCyrLight.woff 6 68660 0 0
+/libraries/joomla/facebook/facebook.php 1 246 0 1
+/libraries/joomla/observer/updater.php 1 200 1 1
+/libraries/fof/form/header/filterdate.php 1 246 0 1
+/media/jui/fonts/IcoMoon.woff 3 25709 0 0
+/index.php 2 4986 0 0
+/klienti 3 10675 0 1
+/poslugi/2-zakhist-v-kriminalnikh-spravakh 3 10067 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 103 1074233 0 0
+png 222 905023 0 0
+woff 117 1398482 0 0
+php 40 62898 0 0
+html 32 111899 0 0
+jpg 141 11613253 0 0
+js 193 2378877 0 0
+Unknown 34 100135 0 0
+gif 22 25761 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+winxp 47
+winnt 127
+linux 555
+macosx 105
+win2008 70
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 10
+chrome44.0.2403.125 448
+firefox24.0 1
+chrome31.0.1650.48 2
+chrome27.0.1453 44
+chrome48.0.2564.82 105
+firefox33.0 17
+chrome36.0.1985.143 1
+netscape5.0 2
+safari9.0.2 105
+chrome48.0.2564.97 179
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 40 40
+From1 0 0
+From2 1 1
+From3 2 2
+From4 180 861
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://buttons-for-website.com 1 1
+http://grushovec.dev/ru/novosti 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 5 3502
+303 7 2826
+500 10 3567
+404 6 15267
+301 3 1620
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/ru/uslugi 1 -
+/libraries/fof/encrypt/general73.php 1 -
+/media/editors/codemirror/mode/search23.php 1 -
+/libraries/joomla/facebook/footer.php 1 -
+/modules/mod_djimageslider/assets/ajax.php 1 -
+/media/cms/css/include.php 1 -
+END_SIDER_404

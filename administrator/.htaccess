@@ -1,0 +1,4 @@
+AuthName "Please, enter your login and password"
+AuthType Basic
+AuthUserFile /var/www/grushovec-689/data/www/grushovec.com/administrator/.htpasswd
+require valid-user
